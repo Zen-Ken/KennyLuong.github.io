@@ -10,6 +10,8 @@
 
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <link href="navElement.css" rel="stylesheet">
+
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
       <symbol id="bootstrap" viewBox="0 0 118 94">
         <title>Bootstrap</title>
@@ -24,12 +26,13 @@
     </svg>
   
 </head>
+
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img style="height: 32px; margin: 0; padding: 0" src="Logo.png">  
+          <img style="height: 32px; margin: 0; padding: 0" src="Logo.png" alt="Kenny luong Logo">  
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,38 +45,37 @@
             <li class="nav-item">
               <a class="nav-link" href="bio.html">Bio</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Projects
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">PacMen</a></li>
-                <li><a class="dropdown-item" href="#">CSS Eyes</a></li>
-                <li><a class="dropdown-item" href="#">Real Bus Tracking</a></li>
-              </ul>
+            <li class="nav-item">
+            <a class="nav-link" href="bio.html">Projects</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-    <div tag="bioText" style="text-align: center; padding: 2em; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);margin: 10px;">
-        <h1>BIO</h1>
-        <p>
-            As a creative and experimental child who grew up playing with Legos, 
-            I quickly became fascinated with the STEM field. Seeing my father and grandfather disassemble 
-            and repair various electrics inspired me to pursue a degree in electrical engineering. 
-            A degree that required extensive computer study and led to my computer engineering. 
-            In my college career, I was exposed to programming. The challenges that programming entails 
-            excite my inner child, who used his ingenuity and curiosity to find inventive ways to play 
-            with his legos.
-        </p>
-    </div>
+  </nav>
+  
 
-    <h3>My favorite coding process</h3>
-    <ul>
-        <p><u>In not paticular</u></p>
-        <li><a href="https://developer.mozilla.org/en-US/">Mozilla</a></li>
-        <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
-    </ul>
+    
+    
+    <footer>
+      <div class="container" >
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <img src="Icon.png" alt="Kenny luong Icon" height="24px" style="margin: 0em 1em 0em 0em">
+            <span class="mb-3 mb-md-0 text-muted"> &copy; 2022 Kenny, L.</span>
+          </div>
+    
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/kenny-luong-828b72130/"><svg class="bi" width="24" height="24"><use xlink:href="#linkedin"/></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://github.com/Zen-Ken"><svg class="bi" width="24" height="24"><use xlink:href="#github"/></svg></a></li>
+          </ul>
+        </footer>
+      </div>
+    </footer>
+    
 </body>
+
+
+
+
+</footer>
 </html>
