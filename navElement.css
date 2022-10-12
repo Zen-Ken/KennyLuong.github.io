@@ -6,3 +6,24 @@ body{
 footer{
     margin-top: auto;
 }
+
+.nav-pills > ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column
+}
+.nav-pills > li {
+    margin: 0 .5em;
+}
+.nav-pills > li > .nav-link.active{
+    background-color: #38b6ff;
+    color: #fff;
+}
+.nav-pills > li > a:hover {
+    background-color: #84d1fd;
+    color: #fff;
+}
+.nav-pills > li > a {
+    color: #38b6ff;
+    text-align: center;
+}
