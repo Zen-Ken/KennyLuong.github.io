@@ -1,0 +1,8 @@
+My nav bar component: 
+    https://getbootstrap.com/docs/5.2/components/navbar/#nav
+
+My Footer:
+    https://getbootstrap.com/docs/5.2/examples/footers/
+
+My Card:
+    https://getbootstrap.com/docs/5.2/components/card/
