@@ -6,3 +6,15 @@ My Footer:
 
 My Card:
     https://getbootstrap.com/docs/5.2/components/card/
+
+----------------------------------------------------------
+                        References  
+----------------------------------------------------------
+Container:
+    https://getbootstrap.com/docs/5.0/layout/containers/
+Spacing:
+    https://getbootstrap.com/docs/4.0/utilities/spacing/
+Tables:
+    https://getbootstrap.com/docs/4.0/content/tables/
+Shadow:
+    https://getbootstrap.com/docs/4.1/utilities/shadows/
