@@ -1,0 +1,29 @@
+h1{
+    color: white; 
+    text-align: center;
+}
+hr{
+    color:white; 
+    margin: 1em 3em;
+}
+.intro{
+    color: white; 
+    text-align: center;
+} 
+body{
+    flex-grow: 1;
+    background-image: linear-gradient(#38b6ff, #ffffff);
+}
+main{
+    align-self: center;
+    justify-content: center;
+}
+
+.ProjectContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px,  1fr));
+    gap: 1em;
+    align-content: center;
+    justify-content: center;
+}
+
