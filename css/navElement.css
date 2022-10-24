@@ -6,7 +6,12 @@ body{
 footer{
     margin-top: auto;
 }
-
+nav {
+    color: #333;
+}
+.nav-item {
+    margin: auto;
+}
 .nav-pills > ul {
     display: flex;
     flex-wrap: wrap;
@@ -14,10 +19,12 @@ footer{
 }
 .nav-pills > li {
     margin: 0 .5em;
+    font-weight: bold;
 }
 .nav-pills > li > .nav-link.active{
     background-color: #38b6ff;
     color: #fff;
+    
 }
 .nav-pills > li > a:hover {
     background-color: #84d1fd;

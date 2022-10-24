@@ -1,0 +1,21 @@
+
+.contact {
+    list-style: none;
+    padding: 0;
+}
+.contact > li {
+    margin: 10px;
+    display: inline-block;
+}
+.contact > li > a{
+    background-color: #38b6ff;
+    border: #38b6ff;
+    font-weight: bold;
+    margin: auto;
+}
+/* .vertical {
+    border-left: 6px solid black;
+    height: 200px;
+    position:absolute;
+    left: 50%;
+} */

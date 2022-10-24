@@ -18,12 +18,14 @@ main{
     align-self: center;
     justify-content: center;
 }
-
 .ProjectContainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px,  1fr));
-    gap: 1em;
     align-content: center;
     justify-content: center;
 }
+.card {
+    margin: 1em;
+}
+
 
