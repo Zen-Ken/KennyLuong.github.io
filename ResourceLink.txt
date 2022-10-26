@@ -6,7 +6,6 @@ My Footer:
 
 My Card:
     https://getbootstrap.com/docs/5.2/components/card/
-My homepage
 ----------------------------------------------------------
                         References  
 ----------------------------------------------------------
